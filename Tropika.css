@@ -1,0 +1,472 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+#main{
+    width: 250px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+nav{
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 20px;
+}
+button{
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: 1px solid orange;
+}
+/* section one */
+#one{
+    height: 400px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#content{
+    width: 600px;
+    justify-content: flex-end;
+    padding: 70px;
+    line-height: 30px;
+}
+.title{
+    line-height: 20px;
+    font-size: 40px;
+    padding: 20px 0px 20px 0px;
+    font-weight: 30px;
+}
+p{
+    padding: 30px 0px 30px 0px;
+}
+#img{
+    width: 500px;
+    display: flex;
+    justify-content: flex-start;
+}
+#Bone{
+    background-color:orange ;
+    border: 2px solid orange;
+    color: white;
+    transition: all 1s linear 0.1s;
+}
+#Bone:hover{
+    background-color:white ;
+    border: 2px solid orange;
+    color: orange;
+
+}
+#Btwo{
+    background-color:black ;
+    border: 2px solid black;
+    color: white;
+    transition: all 1s linear 0.1s;
+}
+#Btwo:hover{
+    background-color:white ;
+    border: 2px solid black;
+    color: black;
+
+}
+#two{
+    display: flex;
+}
+#two h1{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+#two p{
+    width: 1500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#three{
+    width: 1000px;
+    height: 1600px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#box1{
+    height: 300px;
+    width: 320px;
+    border: 2px solid black;
+    position: absolute;
+    left: 200px;
+    top: 700px;
+    transition: all 1s linear 0.1s ;
+}
+#box1:hover{
+    border-top: 10px solid orange;
+}
+#box1 img{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+#box1 h6{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+    color: orange;
+}
+#box1 p{
+    width: 300px;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    line-height: 25px;
+    padding: 10px ;
+}
+
+#box2{
+    height: 300px;
+    width: 320px;
+    border: 2px solid black;
+    position: absolute;
+    left: 600px;
+    top: 700px;
+    transition: all 1s linear 0.1s ;
+}
+#box2:hover{
+    border-top: 10px solid orange;
+}
+#box2 img{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+#box2 h6{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+    color: orange;
+}
+#box2 p{
+    width: 300px;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    line-height: 25px;
+    padding: 10px ;
+}
+
+#box3{
+    height: 300px;
+    width: 320px;
+    border: 2px solid ;
+    position: absolute;
+    left: 1000px;
+    top: 700px;
+    transition: all 1s linear 0.1s ;
+}
+#box3:hover{
+    border-top: 10px solid orange;
+}
+#box3 img{
+    position: absolute;
+    left: 120px;
+    top: 30px;
+}
+#box3 h6{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    font-size: 30px;
+    color: orange;
+}
+#box3 p{
+    width: 300px;
+    position: absolute;
+    top: 140px;
+    text-align: center;
+    line-height: 25px;
+    padding: 10px ;
+}
+#two button{
+    position: absolute;
+    top: 1100px;
+    left: 690px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: all 1s linear 0.1s;
+}
+#two button:hover{
+    background-color: white;
+    color:black;
+}
+#service1 h1{
+    position: absolute;
+    left: 686px;
+    top: 1220px;
+}
+#para2{
+    position: absolute;
+    top: 1250px;
+    left: 460px;
+}
+#three #flex{
+    /* height: 600px; */
+    width: 1900px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#three #dec{
+    width: 600px;
+    justify-content: flex-start; 
+    padding: 10px 0px 0px 190px;
+    font-size: 20px;
+    word-spacing: 2px;
+
+}
+#three #logo{
+    width: 500px;
+    display: flex;
+    justify-content: flex-end;
+}
+.text3{
+    line-height: 30px;
+}
+#orange{
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: all 1s linear 0.1s;
+}
+#orange:hover{
+    background-color: white;
+    color:black;
+}
+
+#four{
+    position: absolute;
+    top: 1700px;
+    left: 190px;
+}
+#dec1{
+    width: 600px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+#logo1{
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+#grape{
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: all 1s linear 0.1s;
+}
+#grape:hover{
+    background-color: white;
+    color:black;
+}
+
+#four1{
+    position: absolute;
+    top: 2000px;
+    left: 190px;
+}
+#dec2{
+    width: 600px;
+    font-size: 20px;
+    word-spacing: 2px;
+}
+#logo2{
+    position: absolute;
+    left: 900px;
+    top: 40px;
+}
+#gauva{
+    width: 150px;
+    background-color: black;
+    color: white;
+    border-color: black;
+    transition: all 1s linear 0.1s;
+}
+#gauva:hover{
+    background-color: white;
+    color:black;
+}
+
+#five h1{
+    color:black;
+    font-size: 100px;
+    position: absolute;
+    top: 2450px;
+    left: 200px;
+}
+
+#six h1{
+    position: absolute;
+    top: 2850px;
+    left: 690px;
+    font-size: 30px;
+}
+#six p{
+    position: absolute;
+    top: 2870px;
+    left: 500px;
+}
+#six img{
+    position: absolute;
+    top: 2920px;
+    left: 590px;
+
+}
+#six #text{
+    position: absolute;
+    top: 3200px;
+    left: 740px;
+    font-size: 40px;
+}
+#six #text1{
+    position: absolute;
+top: 3300px;
+left: 240px;
+font-size: 20px;
+white-space: pre-wrap;
+line-height: 29px;
+}
+
+#seven{
+    position: absolute;
+    top: 3600px;
+    left: 150px;
+    font-size: 30px;
+    padding: 0px 0px 40px 0px;
+}
+input{
+    width: 700px;
+    outline: none;
+    border-top: 0px solid white;
+    border-right: 0px solid white;
+    border-bottom:  2px solid black;
+    border-left:  0px solid white;
+}
+textarea{
+    width: 700px;
+    outline: none;
+    border-top: 0px solid white;
+    border-right: 0px solid white;
+    border-bottom:  2px solid black;
+    border-left:  0px solid white;
+}
+#send{
+    background-color: orange;
+    color: white;
+    width: 100px;
+}
+#seven img{
+    position: absolute;
+    left: 1000px;
+    top: 20px;
+}
+#map{
+    position: absolute;
+    top: 4090px;
+}
+
+#eight h1{
+    position: absolute;
+    top: 4600px;
+    left: 200px;
+}
+#list{
+    position: absolute;
+    top: 4650px;
+    left: 200px;
+    font-size: 25px;
+    line-height: 40px;
+}
+#Services h1{
+    position: absolute;
+    left: 700px;
+}
+#list1{
+    position: absolute;
+    top: 4650px;
+    left: 700px;
+    font-size: 25px;
+    line-height: 40px;
+}
+#follow{
+    width: 400px;
+    position: absolute;
+    top:0px;
+    left: 1000px;
+}
+#social{
+    width: 200px;
+    position: absolute;
+    top: 4630px;
+    left: 200px;
+    word-spacing: 10px;
+    font-size: 20px;
+
+}
+#follow h6{
+    position: absolute;
+    top: 4700px;
+    left: 200px;
+    font-size: 20px;
+}
+#write{
+    position: absolute;
+    height: 40px;
+    width: 180px;
+    top: 4750px;
+    left: 200px;
+    border: 2px solid black;
+}
+#last{
+    position: absolute;
+top: 4820px;
+left: 200px;
+width: 100px;
+}
+.size{
+    font-size: 20px;
+}
+.h1{
+    font-size: 30px;
+}
+
+#footer{
+    height: 50px;
+    background-color: rgb(246, 160, 1);
+    position: absolute;
+    top: 4900px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+}
+#ftr{
+    padding: 10px 0px 10px 0px;
+}
